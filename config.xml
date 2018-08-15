@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="info.microzaim.мнищк" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Микрозаймы Онлайн</name>
+<widget id="info.microzaim.vybor" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Микрозаймы</name>
     <description>
-        Выбор микрозайма по требованиям и доступности займа
+        Подбор онлайн микрозаймов в России
     </description>
-    <author email="admin@microzaim.info" href="https://Microzaim.info/">
-        Microzaim.info
+    <author email="admin@microzaim.info" href="https://Microzaim.info">
+        Microcredit
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="orientation" value="portrait" />
     <preference name="android-minSdkVersion" value="26" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
@@ -19,22 +20,22 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <platform name="android">
-        <icon density="ldpi" src="res/android/icon-36.png" />
-        <icon density="mdpi" src="res/android/icon-48.png" />
+        <icon density="ldpi" src="res/android/icon-72.png" />
+        <icon density="mdpi" src="res/android/icon-72.png" />
         <icon density="hdpi" src="res/android/icon-72.png" />
         <icon density="xhdpi" src="res/android/icon-96.png" />
-        <icon density="xxhdpi" src="res/android/icon-96.png" />
-        <icon density="xxxhdpi" src="res/android/icon-96.png" />
-        <splash density="land-mdpi" src="res/android/drawable-land-mdpi-480-320.png" />
-        <splash density="land-hdpi" src="res/android/drawable-land-hdpi-800-480.png" />
-        <splash density="land-xhdpi" src="res/android/drawable-land-xhdpi-1280-720.png" />
-        <splash density="land-xxhdpi" src="res/android/drawable-land-xhdpi-1280-720.png" />
-        <splash density="land-xxxhdpi" src="res/android/drawable-land-xhdpi-1280-720.png" />
-        <splash density="port-mdpi" src="res/android/drawable-port-mdpi-320-480.png" />
-        <splash density="port-hdpi" src="res/android/drawable-port-hdpi-480-800.png" />
-        <splash density="port-xhdpi" src="res/android/drawable-port-xhdpi-720-1280.png" />
-        <splash density="port-xxhdpi" src="res/android/drawable-port-xhdpi-720-1280.png" />
-        <splash density="port-xxxhdpi" src="res/android/drawable-port-xhdpi-720-1280.png" />
+        <icon density="xxhdpi" src="res/android/icon-144.png" />
+        <icon density="xxxhdpi" src="res/android/icon-192.png" />
+        <splash density="land-mdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
+        <splash density="land-hdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
+        <splash density="land-xhdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
+        <splash density="land-xxhdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
+        <splash density="land-xxxhdpi" src="res/android/drawable-land-hdpi-800-480.jpg" />
+        <splash density="port-mdpi" src="res/android/drawable-port-hdpi-480-800.jpg" />
+        <splash density="port-hdpi" src="res/android/drawable-port-hdpi-480-800.jpg" />
+        <splash density="port-xhdpi" src="res/android/drawable-port-xhdpi-720-1280.jpg" />
+        <splash density="port-xxhdpi" src="res/android/drawable-port-xhdpi-720-1280.jpg" />
+        <splash density="port-xxxhdpi" src="res/android/drawable-port-xhdpi-720-1280.jpg" />
     </platform>
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
@@ -89,10 +90,6 @@
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
