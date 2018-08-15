@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="info.microzaim.vybor" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="web.microcredits.online" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Микрозаймы</name>
     <description>
         Подбор онлайн микрозаймов в России
     </description>
-    <author email="admin@microzaim.info" href="https://Microzaim.info">
+    <author email="admin@microzaim.info" href="https://microzaim.info">
         Microcredit
     </author>
     <content src="index.html" />
