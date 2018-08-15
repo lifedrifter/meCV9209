@@ -1,0 +1,4 @@
+/* JQUERY */
+$().ready(function(){
+	
+});
